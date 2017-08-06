@@ -1,0 +1,8 @@
+檔案狀態
+staged          準備被commit的檔案
+unstaged        檔案已經偵測到改變但尚未commit
+untracked       檔案尚未被偵測到(尚未add)
+deleted         檔案已經被刪除，正等待從Git中被移除
+
+Commit          當前repository的snapshot(快照)
+Staging Area    已經被add但尚未commit的檔案，會出現在Staging Area

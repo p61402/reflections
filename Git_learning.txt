@@ -1,5 +1,0 @@
-git --help              列出與Git有關的所有指令
-git clone               複製一份Git的Repository到本機，包括歷史的資訊
-git log                 列出所有的commit
-git diff                比較兩個版本之間的差異
-git checkout            

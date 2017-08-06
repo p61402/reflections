@@ -1,0 +1,24 @@
+git --help                          列出與Git有關的所有指令
+git clone                           複製一份Git的Repository到本機，包括歷史的資訊
+git log                             列出所有的commit
+git checkout                        
+git init                            產生repository
+git add                             加入檔案
+git status                          目前檔案狀態(是否更動卻尚未add，或是已經add但尚未commit)
+git commit                          開啟預設的編輯器進行commit
+git commit -m "..."                 針對目前的更動直接加入commit
+git reset [file_name]               將檔案從staging area移除
+git diff                            比較working directory與staging area檔案的差異
+git diff --staged                   比較staging area與最近的commit檔案的差異
+git diff c1 c2                      比較commit c1與c2檔案的差異
+git branch                          查看目前的所有的branch
+git branch branch_name              產生新的branch
+git checkout branch_name            移動到新的branch
+git checkout -b branch_name         產生新的branch並移動至新的branch
+git log --graph --oneline b1 b2     將branch b1及b2的commit視覺化
+git merge
+git remote
+git remote add [shortname] [url]     
+git remote -v
+git push [shortname] [branch_name]
+git pull [shortname] [branch_name]
