@@ -1,7 +1,6 @@
 git --help                          列出與Git有關的所有指令
 git clone                           複製一份Git的Repository到本機，包括歷史的資訊
-git log                             列出所有的commit
-git checkout                        
+git log                             列出所有的commit                        
 git init                            產生repository
 git add                             加入檔案
 git status                          目前檔案狀態(是否更動卻尚未add，或是已經add但尚未commit)
